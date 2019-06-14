@@ -1,4 +1,4 @@
-# USBResetter
+# USB Resetter
 
 The USB Resetter allows for using a 5V power source such as a GPIO Pin on a Raspberry Pi or Arduino to enable/disable a USB A connection. This was designed to facilitate allowing my Raspberry Pi to Reset my Fine Offset Weather Station which suffers from USB Lockup, and the only recourse is to forcibly power-cycle the device. 
 
