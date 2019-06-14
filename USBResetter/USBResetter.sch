@@ -164,7 +164,7 @@ Connection ~ 2300 1500
 Wire Wire Line
 	2300 1500 2550 1500
 $Comp
-L Device:Q_NPN_BCE Q1
+L Device:Q_NPN_BEC Q1
 U 1 1 5D050F17
 P 1650 3300
 F 0 "Q1" H 1841 3346 50  0000 L CNN
@@ -351,4 +351,8 @@ Text Notes 575  2500 0    50   ~ 0
 Manual Bypass
 Text Notes 2200 2500 0    50   ~ 0
 Indicators
+Text Label 1300 1700 0    50   ~ 0
+USBD+
+Text Label 1300 1800 0    50   ~ 0
+USBD-
 $EndSCHEMATC
