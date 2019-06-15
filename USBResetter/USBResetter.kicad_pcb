@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 8)
     (tracks 101)
     (zones 0)
     (modules 12)
@@ -619,9 +619,8 @@
     )
   )
 
-  (gr_line (start 168 104) (end 167.8 104) (layer Edge.Cuts) (width 0.05) (tstamp 5D04D577))
-  (gr_line (start 168 84) (end 168 104) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 167.8 104) (end 167.6 104) (layer Edge.Cuts) (width 0.05) (tstamp 5D039347))
+  (gr_line (start 168 104) (end 168 84) (layer Edge.Cuts) (width 0.05) (tstamp 5D04D856))
+  (gr_line (start 125 104) (end 168 104) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 167.6 84) (end 168 84) (layer Edge.Cuts) (width 0.05))
   (gr_text "By Optoisolated - June 2019" (at 146.4 89) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
@@ -632,10 +631,8 @@
   (gr_text "USB Resetter" (at 149.4 102.4) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 128 104) (end 167.6 104) (layer Edge.Cuts) (width 0.05) (tstamp 5D032B03))
   (gr_line (start 125 84) (end 167.6 84) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 125 104) (end 125 84) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 128 104) (end 125 104) (layer Edge.Cuts) (width 0.05))
 
   (segment (start 135.2 86.95) (end 135.55 86.6) (width 0.25) (layer F.Cu) (net 1) (status 30))
   (segment (start 135.2 90.25) (end 135.2 86.95) (width 0.25) (layer F.Cu) (net 1) (status 30))
@@ -739,7 +736,7 @@
   (segment (start 164.0518 94.07) (end 163.19 94.07) (width 0.2) (layer B.Cu) (net 12))
   (segment (start 164.475 94.4932) (end 164.0518 94.07) (width 0.2) (layer B.Cu) (net 12))
 
-  (zone (net 5) (net_name GND) (layer F.Cu) (tstamp 5D04D5F7) (hatch edge 0.508)
+  (zone (net 5) (net_name GND) (layer F.Cu) (tstamp 5D04D7F4) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -957,7 +954,7 @@
         (xy 140.225812 85.725518) (xy 140.189502 85.60582) (xy 140.130537 85.495506) (xy 140.051185 85.398815) (xy 139.954494 85.319463)
         (xy 139.84418 85.260498) (xy 139.724482 85.224188) (xy 139.651905 85.21704) (xy 139.625172 85.128913) (xy 139.547636 84.983854)
         (xy 139.443291 84.856709) (xy 139.411426 84.830558) (xy 139.369443 84.788576) (xy 139.34329 84.756708) (xy 139.225451 84.66)
-        (xy 167.34 84.66) (xy 167.340001 103.34) (xy 125.66 103.34) (xy 125.66 102.451653) (xy 126.617952 102.451653)
+        (xy 167.340001 84.66) (xy 167.34 103.34) (xy 125.66 103.34) (xy 125.66 102.451653) (xy 126.617952 102.451653)
         (xy 126.773962 102.767214) (xy 127.148745 102.95802) (xy 127.553551 103.072044) (xy 127.972824 103.104902) (xy 128.390451 103.055334)
         (xy 128.790383 102.925243) (xy 129.086038 102.767214) (xy 129.242048 102.451653) (xy 163.757952 102.451653) (xy 163.913962 102.767214)
         (xy 164.288745 102.95802) (xy 164.693551 103.072044) (xy 165.112824 103.104902) (xy 165.530451 103.055334) (xy 165.930383 102.925243)
@@ -992,7 +989,7 @@
       )
     )
   )
-  (zone (net 5) (net_name GND) (layer B.Cu) (tstamp 5D04D5F4) (hatch edge 0.508)
+  (zone (net 5) (net_name GND) (layer B.Cu) (tstamp 5D04D7F1) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1003,7 +1000,7 @@
     )
     (filled_polygon
       (pts
-        (xy 167.340001 103.34) (xy 125.66 103.34) (xy 125.66 102.451653) (xy 126.617952 102.451653) (xy 126.773962 102.767214)
+        (xy 167.34 103.34) (xy 125.66 103.34) (xy 125.66 102.451653) (xy 126.617952 102.451653) (xy 126.773962 102.767214)
         (xy 127.148745 102.95802) (xy 127.553551 103.072044) (xy 127.972824 103.104902) (xy 128.390451 103.055334) (xy 128.790383 102.925243)
         (xy 129.086038 102.767214) (xy 129.242048 102.451653) (xy 163.757952 102.451653) (xy 163.913962 102.767214) (xy 164.288745 102.95802)
         (xy 164.693551 103.072044) (xy 165.112824 103.104902) (xy 165.530451 103.055334) (xy 165.930383 102.925243) (xy 166.226038 102.767214)
@@ -1108,7 +1105,7 @@
         (xy 165.851255 85.24198) (xy 165.446449 85.127956) (xy 165.027176 85.095098) (xy 164.609549 85.144666) (xy 164.209617 85.274757)
         (xy 163.913962 85.432786) (xy 163.757952 85.748347) (xy 129.242048 85.748347) (xy 129.086038 85.432786) (xy 128.711255 85.24198)
         (xy 128.306449 85.127956) (xy 127.887176 85.095098) (xy 127.469549 85.144666) (xy 127.069617 85.274757) (xy 126.773962 85.432786)
-        (xy 126.617952 85.748347) (xy 125.66 85.748347) (xy 125.66 84.66) (xy 167.34 84.66)
+        (xy 126.617952 85.748347) (xy 125.66 85.748347) (xy 125.66 84.66) (xy 167.340001 84.66)
       )
     )
   )
