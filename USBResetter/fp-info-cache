@@ -1,4 +1,4 @@
-134204270604943
+135775800058326
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -28762,6 +28762,13 @@ DirectFET_ST
 0
 0
 0
+Jumpers
+SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
+solder jumper open
+0
+2
+2
 LEDs
 LED-L1T2_LUMILEDS
 
